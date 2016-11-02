@@ -1,7 +1,11 @@
 # mimetype-descriptions :notebook:
 Library that provides localized description of mimetypes (based on shared-mime-info)
 
+
 ### Installation
+
+[![NPM](https://nodei.co/npm/mimetype-descriptions.png?compact=true)](https://npmjs.org/package/mimetype-descriptions)
+
 `npm install mimetype-descriptions`
 
 
@@ -14,19 +18,19 @@ import mimetype from "mimetype-descriptions"
  
 
 // lang defaults to "en"
-console.log(mimetype.description("application/x-desktop"));                  // "desktop configuration file"
+mimetype.description("application/x-desktop");                  // "desktop configuration file"
 
-console.log(mimetype.description("text/mathml", "pl"));                      // "Dokument MathML"
+mimetype.description("text/mathml", "pl");                      // "Dokument MathML"
 
-console.log(mimetype.acronym("text/mathml"));                                // "MathML"
+mimetype.acronym("text/mathml");                                // "MathML"
 
-console.log(mimetype.expanded("text/mathml"));                               // "Mathematical Markup Language"
+mimetype.expanded("text/mathml");                               // "Mathematical Markup Language"
 
-console.log(mimetype.icon("application/vnd.ms-powerpoint"));                 // "x-office-presentation"
+mimetype.icon("application/vnd.ms-powerpoint");                 // "x-office-presentation"
 
-console.log(mimetype.description("application/vnd.ms-powerpoint", "en_GB")); // "PowerPoint Presentation"
+mimetype.description("application/vnd.ms-powerpoint", "en_GB"); // "PowerPoint Presentation"
 
-console.log(mimetype.full("application/vnd.ms-powerpoint"));                 // returns description, acronym, expanded, icon in single object
+mimetype.full("application/vnd.ms-powerpoint");                 // returns description, acronym, expanded, icon in single object
  /*
  { 
    type: 'application/vnd.ms-powerpoint',
@@ -87,6 +91,6 @@ console.log(mimetype.full("application/vnd.ms-powerpoint"));                 // 
 ```
 
 
-
 ### How it works 
 It uses [shared-mime-info](https://freedesktop.org/wiki/Software/shared-mime-info/) (`freedesktop.org.xml` file)
+

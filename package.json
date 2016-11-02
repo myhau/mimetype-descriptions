@@ -1,6 +1,6 @@
 {
   "name": "mimetype-descriptions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library that provides localized description of mimetypes (based on shared-mime-info)",
   "main": "mimetype-descriptions.js",
   "scripts": {
