@@ -1,0 +1,33 @@
+{
+  "name": "mimetype-descriptions",
+  "version": "1.0.0",
+  "description": "Library that provides localized description of mimetypes (based on shared-mime-info)",
+  "main": "mimetype-descriptions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myhau/mimetype-descriptions.git"
+  },
+  "keywords": [
+    "mime",
+    "mimetype",
+    "mime-type",
+    "file",
+    "file-mime",
+    "file-mime-type",
+    "mime-file-type",
+    "mimefiletype",
+    "filemimetype"
+  ],
+  "author": {
+    "name": "Michal Fudala",
+    "email": "mail@michalfudala.com"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/myhau/mimetype-descriptions/issues"
+  },
+  "homepage": "https://github.com/myhau/mimetype-descriptions#readme"
+}
